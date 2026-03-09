@@ -76,7 +76,7 @@ Drift Analysis and Strategy Backtest
 ```
 Post-Earnings-Announcement-Drift
 │
-├── notebooks
+├── Notebooks
 │   ├── 01_prices_and_returns.ipynb
 │   ├── 02_earnings_events_and_surprise.ipynb
 │   ├── 03_google_trends_attention.ipynb
@@ -85,14 +85,14 @@ Post-Earnings-Announcement-Drift
 │   ├── Trading on Limited Attention Around Earnings Announcements.ipynb
 │   └── Report.ipynb
 │
-├── output
+├── Output
 │   ├── tables
 │   ├── figures
 │   ├── final
 │   ├── manual
 │   └── cache
 │
-├── papers
+├── Papers
 │   ├── PEAD.pdf
 │   ├── Driven to Distraction.pdf
 │   ├── Evidence That Stock Prices Do Not Fully Reflect the Implications of Current Earnings for Future Earnings.pdf
