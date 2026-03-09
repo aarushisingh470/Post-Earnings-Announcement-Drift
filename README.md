@@ -82,7 +82,6 @@ Post-Earnings-Announcement-Drift
 │   ├── 03_google_trends_attention.ipynb
 │   ├── 04_merge_and_generate_report_results.ipynb
 │   ├── GoogleTrends.ipynb
-│   ├── Trading on Limited Attention Around Earnings Announcements.ipynb
 │   └── Report.ipynb
 │
 ├── Output
@@ -97,6 +96,8 @@ Post-Earnings-Announcement-Drift
 │   ├── Driven to Distraction.pdf
 │   ├── Evidence That Stock Prices Do Not Fully Reflect the Implications of Current Earnings for Future Earnings.pdf
 │   └── In Search of Attention.pdf
+│
+└── Trading on Limited Attention Around Earnings Announcements
 │
 └── README.md
 ```
