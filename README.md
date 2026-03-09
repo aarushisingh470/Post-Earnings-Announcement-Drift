@@ -97,7 +97,7 @@ Post-Earnings-Announcement-Drift
 │   ├── Evidence That Stock Prices Do Not Fully Reflect the Implications of Current Earnings for Future Earnings.pdf
 │   └── In Search of Attention.pdf
 │
-└── Trading on Limited Attention Around Earnings Announcements
+├── Trading on Limited Attention Around Earnings Announcements
 │
 └── README.md
 ```
