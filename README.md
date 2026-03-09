@@ -127,6 +127,32 @@ Attention and congestion measures influence the magnitude of the drift, consiste
 
 A simple long-short strategy based on earnings surprises produces a **positive Sharpe ratio**, with an **annualized Sharpe ratio of approximately 1.5–1.7 depending on specification**.
 
+We also evaluate whether the documented drift can be translated into a simple trading strategy.
+
+## Strategy Performance
+
+We evaluate a simple long–short strategy based on the sign of the earnings surprise.
+
+Strategy construction:
+
+- **Long:** stocks with positive `CAR(0,1)` (positive earnings surprise)
+- **Short:** stocks with negative `CAR(0,1)` (negative earnings surprise)
+
+Performance summary:
+
+| Metric | Value |
+|------|------|
+| Average monthly return | ~0.9% |
+| Annualized Sharpe Ratio | **~1.6** |
+
+The annualized Sharpe ratio is computed as:
+
+```
+Sharpe = sqrt(12) × (mean monthly return / monthly return standard deviation)
+```
+
+The strategy produces a positive risk-adjusted return consistent with the **Post-Earnings-Announcement Drift anomaly**, particularly when conditioning on **low investor attention** and **high earnings announcement congestion**.
+
 ---
 
 # Running the Project
