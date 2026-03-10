@@ -142,13 +142,13 @@ Performance summary:
 
 | Metric | Value |
 |------|------|
-| Average monthly return | ~0.9% |
-| Annualized Sharpe Ratio | **~1.6** |
+| Average daily return | ~0.021% |
+| Annualized Sharpe Ratio | **~1.76** |
 
 The annualized Sharpe ratio is computed as:
 
 ```
-Sharpe = sqrt(12) × (mean monthly return / monthly return standard deviation)
+Sharpe = sqrt(252) × (mean daily return / daily return standard deviation)
 ```
 
 The strategy produces a positive risk-adjusted return consistent with the **Post-Earnings-Announcement Drift anomaly**, particularly when conditioning on **low investor attention** and **high earnings announcement congestion**.
